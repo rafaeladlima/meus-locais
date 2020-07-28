@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    font-family: sans-serif;
+    font-size: 1em;
+    
+    overflow-x: hidden;
+}
+
+header{
+    width:100%;
+    position: absolute;
+    height: 50px;
+    background: #c1d7ff;
+    
+}
+h2{
+    margin-top:10px;
+    color:#ffffffed;
+    text-align: center;
+}
+
+#wrapper{
+   
+    width: 100vw;
+    display: flex;
+    margin-top:140px;
+    justify-content: center;
+    
+}
+
+
+#tabela{
+    width:500px;
+    height:auto;
+    border:1px solid #cccd;
+    border: 1;
+    
+   border-radius:5px;
+    
+    margin-right:40px;
+    top:30px;
+}
+
+#tabela th{
+    padding:20px;
+    border: 0;
+    background: #a6c9ff;
+    color:#ffffffed;
+     
+}
+
+#tabela td{
+     
+    background: #ececec;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;border:0;
+}
+.btn-enviar{
+     background:  #cc9933;
+     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+     width:150px;
+    
+    margin:0 auto;
+    position: relative;
+    bottom: 10px;
+   
+    
+}
+.btn-enviar span{
+     text-decoration: none;
+     color:#fff;
+    margin:40px;
+     cursor: pointer;
+     
+    
+}
+.btn-editar span{
+     text-decoration: none;
+     color:#fff;
+    margin:40px;
+     cursor: pointer;
+    
+}
+
+.btn-editar{
+      background:  #cc9933;
+     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+     width:150px;
+    
+    margin:0 auto;
+    position: relative;
+    bottom: 10px;
+}
+
+.btn-add{
+    width:200px;
+    height:35px;
+    border-radius: 5px;
+    
+    position: relative;
+    background: #1a7eff;
+    text-align: center;
+    
+   
+}
+
+a {
+    cursor: pointer;
+}
+
+
+.btn-add a{
+    
+     text-decoration: none;
+    position: relative;
+    top:5px;
+    color:#fff;
+    cursor: pointer;
+    
+    
+}
+/*CSS - FORMULÁRIO */
+
+.modal-header{
+    display: flex;
+    
+    
+}
+
+.close {
+    cursor: pointer;
+}
+
+.modal-header span{
+    position: relative;
+    left:400px;
+    top:10px;
+}
+
+.modal{
+    border:1px solid #ccde;
+    width:600px;
+     z-index: 9999;
+    transition: opacity 400ms ease-in;
+ 
+    opacity: 0;
+}
+
+
+fieldset{
+    border:0;
+}
+
+.form-group .group{
+    display: flex;
+}
+
+.form-group:before, .form-group:after {
+    content: " ";
+    display: table;
+}
+
+
+.input {
+    margin-bottom: 1em;
+}
+
+.input label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}
+
+.modal{
+    margin:0 auto;
+}
+
+.modal h2{
+    text-align: left;
+    margin:25px;
+}
+
+.form-cadastro{
+    margin-top:30px;
+}
+
+.form-group input[ name="nome"]{
+    width:300px;
+}
+.form-group input[name="logradouro"]{
+    width:100px;
+}
+.form-group input[name="complemento"]{
+    width:250px;
+}
+.form-group input[name="numero"], .form-group input[name='uf']{
+    width:50px;
+}
+.form-group input[name="bairro"]{
+    width:200px;
+}
+.form-group select[name="estado"]{
+    width:100px;
+}
+fieldset .input label{
+    margin-left:20px;
+    
+}
+
+.input label{
+    margin-left: 20px;
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+
+.form-group select {
+    margin: 0.5em;
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+
+
+.form-group input:focus, .form-group select:focus{
+    background: #FFC;
+}
